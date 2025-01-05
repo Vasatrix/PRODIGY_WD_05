@@ -60,7 +60,7 @@ WeatherDetails.propTypes={
 }
 
 function App() {
-  let api_key= "dbb0d97c34680d9fc8775e743b9bcb4c";
+  let api_key= "YOUR_API_KEY";
   const [text, setText]=useState("Chennai")
   const [icon, setIcon] = useState(sunIcon);
   const [temp, setTemp] = useState(0);
